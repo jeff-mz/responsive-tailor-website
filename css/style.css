@@ -1,0 +1,48 @@
+body {
+  scroll-behavior: smooth;
+}
+.navbar .navbar-nav .nav-item:hover {
+  background-color: #bd9175;
+  color: #fff;
+}
+
+.typewriter span {
+  overflow: hidden;
+  white-space: nowrap;
+  /* letter-spacing: 0.15em; */
+  padding: 0px;
+  animation: typing 5s steps(30, end) infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 100%;
+  }
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+.card.hover,
+.card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.img {
+  margin-bottom: 35px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.card:hover,
+.card.hover,
+.card-title {
+  color: #bd9175;
+  font-weight: 600;
+}
